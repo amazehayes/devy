@@ -37,7 +37,7 @@ server <- function(input, output) {
     
     DRdata
     
-  }, rownames = FALSE, options = list(lengthMenu = c(25, 50, 100),
+  }, rownames = FALSE, filter = "top", options = list(lengthMenu = c(25, 50, 100),
                                       pageLength = 25))
   
 }
